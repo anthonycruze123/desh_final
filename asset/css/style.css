@@ -1,0 +1,372 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*desh_menubar start*/
+#desh_menubar{
+    background-image: url(../images/desh-catering-itemized-price-list-dhaka.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 175px;
+}
+.desh_nav{
+background-color: aliceblue;
+z-index: 1;
+}
+.custom_list{
+    padding: 40px 0px 10px 40px;
+}
+.custom_list a{
+    margin-left:50px;
+    color: #000;
+    font-weight: bold;
+    font-size: 20px;
+  transition: width 1s;
+}
+.custom_list a:hover{
+    border-bottom: 2px solid#F4CD78;
+}
+.active{
+   text-decoration: underline;
+   color: #F4CD78;
+}
+.logo{
+    padding:0px 148px 0px 135px ;
+}
+.logo img{
+        width: 100px;
+    margin-top: -40px;
+}
+.desh_headtext{
+    text-align: center;
+    z-index: -1;
+}
+.desh_headtext h1{
+    font-size:60px;
+    font-weight: bold;
+    padding: 185px 0px 50px 125px;
+    color:#F4CD78;
+}
+.desh_headtext h3{
+        color: #fff;
+    font-family: alegreya sans sc,Sans-serif;
+    font-size: 2.5em;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-style: oblique;
+    line-height: 1.2em;
+    letter-spacing: 2.9px;
+    margin-left: 108px;
+}
+.desh_headtext p{
+        color: #fff;
+    font-family: alegreya sans sc,Sans-serif;
+    font-size: 2.5em;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-style: oblique;
+    line-height: 1.2em;
+    letter-spacing: 2.9px;
+    margin-left: 108px;
+    padding-bottom: 74px;
+}
+.desh_headtext a {
+    text-decoration: none;
+    background-color:#23A455;
+    /* width: 74px; */
+    /* height: 25px; */
+    padding: 15px 55px 17px 60px;
+    color: #fff;
+    margin-left: 150px;
+    border-radius: 12px;
+    font-size: 20px;
+}
+.desh_headtext a:hover{
+    background-color: green;
+}
+/*desh_menubar end*/
+
+/*desh service start*/
+#desh_service{
+    padding-bottom: 130px;
+}
+.service_headtext h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    padding: 115px 0px 70px 0px;
+    color: #0F434C;
+}
+.private_service{
+    position: relative;
+}
+.private_service img{
+    width: 85%;
+    height: 600px;
+    filter: brightness(0.5);
+    margin-left: 10px;
+    padding-left: 10px;
+   
+}
+.private_text{
+    position: absolute;
+    border: 2px solid #f9c109;
+    top: 45px;
+    left: 60px;
+    text-align: center;
+    padding: 2px 0px 65px 0px;
+    margin-left: -8px;
+}
+.private_service h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    padding: 115px 0px 25px 0px;
+    color: #f9c109;
+}
+.private_text p{
+    color: #fff;
+    text-align: center;
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 400;
+    z-index: 2;
+    padding: 20px 20px 50px 5px;
+}
+.private_text a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #fff;
+    background-color: #23A455;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.Corporate_service{
+    position: relative;
+}
+.Corporate_service img{
+    width: 84%;
+    height: 600px;
+    filter: brightness(0.5);
+    margin-left: -4px;
+    padding-left: 14px;
+}
+.Corporate_text{
+    position: absolute;
+    border: 2px solid #f9c109;
+    top: 45px;
+    left: 60px;
+    text-align: center;
+    padding: 2px 1px 70px 6px;
+    margin-left: -22px;
+}
+.Corporate_text h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    padding: 115px 0px 25px 0px;
+    color: #f9c109;
+}
+.Corporate_text p{
+    color: #fff;
+    text-align: center;
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 400;
+    z-index: 2;
+    padding: 20px 20px 50px 5px;
+}
+.Corporate_text a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #fff;
+    background-color: #23A455;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/*desh service end*/
+
+/*SO SPECIAL start*/
+#SO_SPECIAL{
+    background-image: url(../images/Corporate-Party-Setup-desh-catering.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 156px;
+}
+.special_text{
+    text-align: center;
+    z-index: 1;
+   
+}
+.special_text h1{
+    color: #f4cd78;
+    font-family: alegreya sans,Sans-serif;
+    font-size: 64px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1em;
+    letter-spacing: .5px;
+    padding: 160px 0px 112px 0px;
+}
+.special_text h4{
+    color: #fff;
+    font-size: 2em;
+    line-height: 1.5em;
+    letter-spacing: 0;
+}
+.special_text p{
+    color: #fff;
+    font-size: 2em;
+    line-height: 1.5em;
+    letter-spacing: 0;
+    padding-bottom: 102px;
+}
+.special_text a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #fff;
+    background-color: #23A455;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+/*SO SPECIAL end*/
+
+/*features_card start*/
+#features_info{
+    text-decoration: none;
+}
+.info_text{
+    text-align: center;
+    padding: 120px 0px 70px 0px ;
+}
+.info_text h1{
+    color: #0F434C;
+    text-decoration: underline #F4CD78;
+    line-height: .5 rem;
+}
+.info_text p{
+    font-size: 20px;
+    font-weight: 600;
+}
+.features_card{
+    margin: 10px;
+}
+.text_info{
+    text-align: center;
+}
+/*features_card end*/
+
+/*desh_clients start*/
+    #desh_clients{
+        background-color:#F4CD78;
+    }
+    .clients_headings{
+        text-align: center;
+        padding: 50px 0px 0px;
+    }
+    .clients_headings h1{
+        color: #0F434C;
+        font-size: 2.5em;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        text-decoration: underline green;
+    }
+    .client_gallery{
+        text-align: center;
+    }
+    .gallery {
+        border: 1px solid #ccc;
+        background-color:red;
+        margin: 20px;
+      }
+      
+    .gallery:hover {
+      
+        padding:15px;
+      }
+      
+    .gallery img {
+        width: 100%;
+        height: auto;
+       padding:25px;
+       transition-duration: .3s;
+       transition-property: transform;
+      }
+      
+/*desh_clients end*/
+
+/*desh footer start*/
+      #desh_footer{
+        background-color: #54595F;
+      }
+      .footer_1{
+        padding: 30px 0px 0px;
+      }
+      .footer_1 a{
+        text-decoration: none;
+        color: #ccc;
+        padding-left:5px;
+      }
+      .footer_1 span{
+        padding-right:5px;
+      }
+      .footer_2{
+        padding: 30px 0px 0px;
+      }
+      .footer_2 h4{
+        color: #ccc;
+        font-family: 'Times New Roman', Times, serif;
+      }
+      .footer_2 a{
+        text-decoration: none;
+        color: #ccc;
+        
+      }
+      .footer_2 a:hover{
+        border-bottom: 2px solid red;
+        margin: 10px 0px 10px;
+      }
+      .footer_3{
+        padding: 30px 0px 20px;
+       
+      }
+      .footer_3 h4{
+        color: #ccc;
+        font-size: 20px;
+        font-weight: 600;
+      }
+      .footer_3 form{
+        margin: 10px 0px 20px;
+      }
+      #fname{
+        margin:5px;
+        background-color: #63686D;
+      }
+      #email{
+        margin: 5px;
+        background-color: #63686D;
+      }
+      #phone{
+        margin: 5px;
+        background-color: #63686D;
+      }
+      .footer_3 a {
+        text-decoration: none;
+        color: #ccc;
+        background-color: #23A455;
+        border-radius: 10px;
+        padding: 5px 85px 8px 95px;
+        margin-left: -3px;
+    }
+/*desh footer end*/

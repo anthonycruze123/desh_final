@@ -1,0 +1,203 @@
+
+@media(max-width:767px){
+    .desh_nav {
+        background-color: aliceblue;
+        z-index: 1;
+        border-bottom: 2px solid white;
+    }
+
+}
+@media(max-width:480px){
+    .desh_nav {
+        background-color: aliceblue;
+        z-index: 1;
+        border-bottom: 2px solid white;
+    }
+    .custom_list {
+        padding: 5px 0px 5px 5px;
+        text-align: left;
+    }
+    .custom_list a {
+        margin-left: 10px;
+        color: #000;
+        font-weight: bold;
+        font-size: 20px;
+        transition: width 1s;
+    }
+    .logo img {
+        width: 50px;
+        margin-top: -353px;
+    }
+    .desh_headtext h1 {
+        font-size: 40px;
+        font-weight: bold;
+        padding: 5px 0px 10px 0px;
+        color: #F4CD78;
+    }
+    .desh_headtext h3 {
+        color: #fff;
+        font-family: alegreya sans sc,Sans-serif;
+        font-size: 15px;
+        font-weight: 600;
+        text-transform: uppercase;
+        font-style: oblique;
+        line-height: 1.2em;
+        letter-spacing: 2.9px;
+        margin-left: 20px;
+    }
+    .desh_headtext p {
+        color: #fff;
+        font-family: alegreya sans sc,Sans-serif;
+        font-size: 0.9 rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        font-style: oblique;
+        line-height: 1.5em;
+        letter-spacing: 2.9px;
+        padding-bottom: 30px;
+        margin-left: 2px;
+    }
+    .desh_headtext a {
+        text-decoration: none;
+        background-color: #23A455;
+        padding: 18px 15px 15px 23px;
+        color: #fff;
+        border-radius: 10px;
+        font-size: 15px;
+        margin-left: 2px;
+    }
+    .service_headtext h1 {
+        padding: 33px 0px 50px 0px;
+      
+    }
+    .private_service img {
+        width: 100%;
+        height: 395px;
+        filter: brightness(0.5);
+        margin-left: 2px;
+        padding-left: 0px;
+    }
+    .private_text {
+        position: absolute;
+        border: 2px solid #f9c109;
+        top: 65px;
+        left: 15px;
+        text-align: center;
+        padding: 10px 0px 35px 0px;
+        margin-left: -6px;
+    }
+    .private_service h1 {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+        font-size: 25px;
+        padding: 10px 0px 0px 0px;
+        color: #f9c109;
+    }
+    .private_text p {
+        color: #fff;
+        text-align: center;
+        color: #fff;
+        font-size: 1.0em;
+        font-weight: 400;
+        z-index: 2;
+        padding: 0px 25px 40px 15px;
+    }
+    .private_text a {
+        text-decoration: none;
+        text-transform: capitalize;
+        color: #fff;
+        background-color: #23A455;
+        padding: 10px 25px;
+        border-radius: 5px;
+    }
+    .Corporate_service img {
+        width: 100%;
+        height: 390px;
+        filter: brightness(0.5);
+        margin-left: -4px;
+        padding-left: 14px;
+        margin-top: 40px;
+    }
+    .Corporate_text {
+        position: absolute;
+        border: 2px solid #f9c109;
+        top: 100px;
+        left: 40px;
+        text-align: center;
+        padding: 10px 0px 20px 1px;
+        margin-left: -12px;
+    }
+    
+
+.Corporate_text h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    padding: 25px 0px 5px 0px;
+    color: #f9c109;
+}
+.Corporate_text p {
+    color: #fff;
+    text-align: center;
+    color: #fff;
+    font-size: 1.0em;
+    font-weight: 400;
+    z-index: 2;
+    padding: 20px 5px 20px 5px;
+}
+.special_text h1 {
+    font-size: 40px;
+    padding: 110px 0px 20px 0px;
+}
+.special_text h4 {
+    font-size: 1em;
+    line-height: 1.5em;
+    letter-spacing: 0;
+}
+.special_text p {
+    font-size: 1em;
+    line-height: 1.5em;
+    letter-spacing: 0;
+    padding-bottom: 50px;
+}
+.footer_1 {
+    padding: 30px 0px 0px;
+    text-align: center;
+}
+.footer_2 {
+    padding: 30px 0px 10px;
+    text-align: center;
+}
+.footer_3 {
+    padding: 30px 20px 25px;
+    text-align: center;
+}
+.footer_3 form {
+    margin: 10px 0px 10px;
+}
+#fname {
+    margin: 5px;
+    width: 230px;
+}
+#email {
+    margin: 5px;
+    width: 230px;
+}
+#phone {
+    margin: 5px;
+    width: 230px;
+}
+}
+
+@media(min-width:767px){
+}
+@media(min-width:768px){
+}
+@media(min-width:992px){
+
+}
+@media(min-width:1200px){
+
+}
